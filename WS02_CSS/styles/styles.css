@@ -20,7 +20,7 @@ p {
     }
     
     th, td {
-      border: 1px solid #ddd;
+      border: 1px solid #050505;
       padding: 8px;
       text-align: left;
     }
@@ -41,12 +41,12 @@ p {
     
     input[type="text"], input[type="email"] {
       padding: 8px;
-      border: 1px solid #ddd;
+      border: 1px solid #080808;
       border-radius: 4px;
     }
     
     input[type="submit"] {
-      background-color: #4CAF50;
+      background-color: #cfc2ac;
       color: white;
       padding: 10px;
       border: none;
