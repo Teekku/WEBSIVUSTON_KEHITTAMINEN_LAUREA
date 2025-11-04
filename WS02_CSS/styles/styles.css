@@ -57,3 +57,18 @@ p {
     input[type="submit"]:hover {
       background-color: #45a049;
     }
+    #linkki {
+      color: rgb(125, 124, 112);
+      text-decoration: none;
+      background-color: ghostwhite;
+      border: #050505 solid 1px;
+      padding: 8px;
+      border-radius: 10px;
+      margin: 20px;
+    }
+
+    #tea {
+      border-radius: 15px;
+      border: #050505 solid 2px;
+      margin: 20px 0px;
+    }
