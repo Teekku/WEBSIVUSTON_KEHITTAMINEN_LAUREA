@@ -67,11 +67,6 @@ p {
       margin: 20px;
     }
 
-    #tea {
-      border-radius: 15px;
-      border: #050505 solid 2px;
-      margin: 20px 0px;
-    }
     .content-box {
       border: 2px solid #050505;
       padding: 10px;
@@ -114,4 +109,29 @@ p {
       .pseudo-list li:nth-child(even) {
         background-color: white;
       }
+      .filter-image {
+        filter: grayscale(100%);
+        transition: filter 0.3s ease;
+      border-radius: 15px;
+      border: #050505 solid 2px;
+      margin: 20px 0px;
+      width: 400px;
+    
+      }
       
+      .filter-image:hover {
+        filter: grayscale(0%);
+      }
+      .quote {
+        position: relative;
+        padding-left: 20px;
+        font-style: italic;
+      }
+      
+      .quote::before {
+        content: '“';
+        font-size: 40px;
+        left: 10px;
+        top: 10px;
+        color: lightgray;
+      }
