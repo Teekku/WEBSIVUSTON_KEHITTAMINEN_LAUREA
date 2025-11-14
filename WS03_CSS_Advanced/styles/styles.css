@@ -92,6 +92,7 @@ p {
         background-color: rgb(197, 198, 185);
         position: relative;
         animation: move 2s infinite alternate;
+        text-align: center;
       }
       
       @keyframes move {
