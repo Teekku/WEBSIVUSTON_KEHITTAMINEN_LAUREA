@@ -1,11 +1,122 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WS04_Layout</title>
-</head>
-<body>
-    <h1>WS04_Layout</h1>
-</body>
+<html lang="fi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WS01_HTML</title>
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+  <body>
+    <h1>Tea Valokorpi</h1>
+    <h2>Tervetuloa ensimmäiselle verkkosivulleni!</h2>
+    <p>
+      Olen 45-vuotias kampaamo-ja kauneushoitolayrittäjä Imatralta. Olen
+      yrittäjäurani aikana suorittanut jo monia alojani sivuavia tutkintoja, ja
+      nyt opiskelen kolmatta vuotta estenomitutkintoa Laureassa. Tarkoitukseni
+      on alun perin ollut suuntautua ammatinopettajaksi, ja luultavasti
+      jatkankin estenomitutkinnon jälkeen ammatilliseen opettajatutkintoon,
+      jonka olen itse asiassa osittain suorittanutkin. Laurean opintojen aikana
+      minua on kuitenkin alkanut kiinnostaa kaikenlainen taustalla tapahtuva
+      sisällöntuotanto, ja myös kauneusalalla lisääntyvä digitalisaatio.
+      Tulevaisuuden eräs työskenaario voisikin olla nykyisen yrittäjyyden sekä
+      etätyönä tapahtuvan digityön yhdistäminen. Tästä syystä olenkin valinnut
+      myös näitä osa-alueita käsitteleviä kursseja, ja suoritan tällä hetkellä
+      myös harjoittelua yrityksessä, jossa pääpaino on tekoälypohjaisten
+      sovellusten käytössä.
+    </p>
+
+    <img
+      src="./images/tea.jpg"
+      alt="Kuva sivulla esitellystä henkilöstä"
+      class="filter-image"
+    />
+
+    <h2>HARRASTUKSIA</h2>
+    <ul>
+      <li>Lukeminen</li>
+      <li>Koiran kanssa lenkkeily</li>
+      <li>Ratsastus</li>
+      <li>Lasten harrastukset</li>
+    </ul>
+    <br />
+    <br />
+    <h2>LASTEN HARRASTUKSIA</h2>
+    <ul class="pseudo-list">
+      <li>Jalkapallo</li>
+      <li>Uinti</li>
+      <li>Ratsastus</li>
+      <li>Voimistelu</li>
+      <li>Agility</li>
+    </ul>
+    <br />
+    <br />
+    <blockquote class="quote">This is a sample quote.</blockquote>
+    <br />
+    <br />
+    <div class="content-box">
+      <br />
+      <h3>
+        SUOSIKKISIVUSTONI -tai ensimmäinen mikä tuli mieleen- on Greenlips
+        Beautyn PRO-sivusto
+      </h3>
+      <p>Alla linkki verkkosivustolle</p>
+    </div>
+    <a id="linkki" href="https://pro.greenlipsbeauty.com/"
+      >Tutustu Greenlips Beautyyn</a
+    >
+    <br />
+    <br />
+    <div class="animation-box">Edestakaisin liikkuva elementti.</div>
+    <br />
+    <br />
+    <h2>ESIMERKKI PÄIVÄSTÄNI</h2>
+    <table>
+      <tr>
+        <th>KLO</th>
+        <th>TEHTÄVÄ</th>
+      </tr>
+      <tr>
+        <td>7-10</td>
+        <td>lapset kouluun, koiran lenkitys</td>
+      </tr>
+      <tr>
+        <td>10-17</td>
+        <td>
+          töitä liikkeessä, ohessa vaikutusajoilla myös kuvien luomista
+          harjoittelupaikkaan tai koulujuttuja
+        </td>
+      </tr>
+      <tr>
+        <td>17-19</td>
+        <td>
+          lapsen vienti harrastukseen,koiran lenkitys (samalla äänikirjan
+          kuuntelua), kauppa, ruoka
+        </td>
+      </tr>
+
+      <tr>
+        <td>20-21</td>
+        <td>ratsastustunti</td>
+      </tr>
+
+      <tr>
+        <td>21.30></td>
+        <td>yleiset iltatoimet, harjoittelujuttujen tai opiskelujen tekoa</td>
+      </tr>
+    </table>
+    <br />
+    <br />
+
+    <h2>OTA YHTEYTTÄ</h2>
+    <form>
+      <label for="name">Nimi:</label>
+      <input type="text" id="name" name="name" /><br /><br />
+      <label for="email">Sähköposti:</label>
+      <input type="email" id="email" name="email" /><br /><br />
+      <input type="submit" value="Submit" />
+    </form>
+    <br />
+    <br />
+    <button class="transition-button">paina tästä</button>
+  </body>
 </html>
