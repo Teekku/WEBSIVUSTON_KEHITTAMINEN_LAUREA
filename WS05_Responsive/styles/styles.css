@@ -43,13 +43,13 @@ p {
     
     @media (max-width: 600px) {
       .media-query-box {
-        background-color: lightcoral;
+        background-color: rgb(232, 209, 224);
       }
     }
     
     @media (min-width: 601px) {
       .media-query-box {
-        background-color: lightblue;
+        background-color: rgb(129, 129, 126);
       }
     }
     .responsive-nav .nav-list {
