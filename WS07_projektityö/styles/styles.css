@@ -1,6 +1,18 @@
 .container-fluid {
-    margin-top: 90px;
+    margin-top: 10px;
 }
-.d-flex align-items-center{
-   background-color: rgb(134, 70, 70);
+
+.header-area {
+    height: 80px;
+    width: 100%;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+body {
+    background-image: url(C:/Users/Omistaja/WEBSIVUSTO/WEBSIVUSTON_KEHITTAMINEN_LAUREA/WS07_projektityö/images/betoniseinä.png);
+    background-size: cover;
+    background-attachment: fixed;
 }
