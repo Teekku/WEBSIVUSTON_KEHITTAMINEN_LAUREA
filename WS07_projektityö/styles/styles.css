@@ -1,18 +1,64 @@
 .container-fluid {
     margin-top: 10px;
 }
-
-.header-area {
-    height: 80px;
-    width: 100%;
-    background-color: #333;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 100;
-}
 body {
     background-image: url(C:/Users/Omistaja/WEBSIVUSTO/WEBSIVUSTON_KEHITTAMINEN_LAUREA/WS07_projektityö/images/betoniseinä.png);
     background-size: cover;
     background-attachment: fixed;
+}
+.header-wrapper {
+  background-color: #f2f1ee;
+  width: 100%;
+}
+.navbar {
+    font-family: 'Lexend Mega', 'Inter', 'Poppins', Arial, Helvetica, sans-serif;
+}
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  margin-top: auto;
+}
+footer {
+    background-color: #f2f1ee;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Lexend Mega', 'Inter', 'Poppins', Arial, Helvetica, sans-serif;
+}
+.footer-custom {
+  background-color: #f2f1ee;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #000;
+  padding: 20px 0;
+}
+
+.footer-custom a {
+  color: #000;
+  text-decoration: none;
+}
+
+.footer-custom a:hover {
+  text-decoration: underline;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer-section {
+  min-width: 200px;
+}
+
+.social-links a {
+  display: block;
+  margin-bottom: 5px;
 }
