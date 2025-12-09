@@ -7,7 +7,7 @@ body {
     background-attachment: fixed;
 }
 .header-wrapper {
-  background-color: #f2f1ee;
+  background-color: #fefefd;
   width: 100%;
 }
 .navbar {
@@ -26,13 +26,13 @@ footer {
   margin-top: auto;
 }
 footer {
-    background-color: #f2f1ee;
+    background-color: #fefefd;
     text-align: center;
     padding: 10px;
     font-family: 'Lexend Mega', 'Inter', 'Poppins', Arial, Helvetica, sans-serif;
 }
 .footer-custom {
-  background-color: #f2f1ee;
+  background-color: #fefefd;
   font-family: Helvetica, Arial, sans-serif;
   color: #000;
   padding: 20px 0;
@@ -51,14 +51,42 @@ footer {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 5px;
 }
 
 .footer-section {
-  min-width: 200px;
+  min-width: 100px;
 }
 
 .social-links a {
   display: block;
   margin-bottom: 5px;
 }
+.footer-section social-links {
+    display:flex
+}
+
+.col-8 px-2 {
+    background-color: #fefefd;  
+    padding: 10px;
+    border-radius: 5px;
+}
+.container d-flex align-items-center justify-content-between {
+    width: 100%;
+}
+@media (max-width: 600px) {
+    .roundedfloat-start {
+        width: 100%;
+    }     
+}  
+.roundedfloat-start {
+    float: left;
+    border: 2px solid;
+   border-radius: 10%;
+   border-color: rgb(5, 5, 5);
+}
+@media (min-width: 601px) {
+    .roundedfloat-start {
+        width: 450px;
+    }     
+}  
