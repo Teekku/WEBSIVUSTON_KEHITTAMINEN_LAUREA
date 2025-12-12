@@ -66,27 +66,52 @@ footer {
     display:flex
 }
 
-.col-8 px-2 {
+.keskibox {
     background-color: #fefefd;  
     padding: 10px;
     border-radius: 5px;
+    border: 1px solid black;
 }
-.container d-flex align-items-center justify-content-between {
-    width: 100%;
+.keskibox {
+    background-color: rgba(255, 255, 255, 0.5); 
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
 }
-@media (max-width: 600px) {
-    .roundedfloat-start {
-        width: 100%;
-    }     
-}  
+
+
 .roundedfloat-start {
-    float: left;
-    border: 2px solid;
-   border-radius: 10%;
-   border-color: rgb(5, 5, 5);
+    border: 2px solid rgb(5,5,5);
+    border-radius: 5%;
+    object-fit: cover;
 }
-@media (min-width: 601px) {
-    .roundedfloat-start {
-        width: 450px;
-    }     
-}  
+.ajanvaraus-btn {
+    border: 2px solid black; 
+}
+.liike-kuva {
+    border: 20px solid black; 
+    border-radius: 5%;
+}
+.keskibox p {
+    font-family: Arial, sans-serif;  
+    font-size: 16px;                 
+    line-height: 1.5;                
+    color: #000;                      
+}
+.keskibox h2 {
+    font-family: 'Lexend Mega', 'Inter', 'Poppins', Arial, Helvetica, sans-serif; 
+    font-size: 24px;                
+    color: #333;                    
+    margin-bottom: 10px;           
+}
+.ajanvaraus-btn {
+  white-space: nowrap;  /* ei rivity */
+  font-size: 0.9rem;
+  padding: 0.5rem 0.8rem;
+}
+@media (max-width: 576px) {
+  .col-left {
+    justify-content: center;  /* painike keskelle pystyssä */
+    margin-bottom: 0.5rem;
+  }
+}
