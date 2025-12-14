@@ -173,6 +173,24 @@ footer {
     height: 100%;          /* Täyttää sarakkeen korkeuden */
     object-fit: cover;     /* Säilyttää kuvasuhteen */
 }
+.custom-arrow {
+  background: white;
+  color: black;
+  font-size: 4rem;
+  padding: 0.5rem 0.8rem;
+  border-radius: 50%;
+  line-height: 2;
+}
+.custom-arrow:hover {
+  background: #f0f0f0;
+  color: black;
+  text-decoration: none;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  opacity: 1;
+}
+
 
 
 
