@@ -2,7 +2,7 @@
     margin-top: 10px;
 }
 body {
-    background-image: url(C:/Users/Omistaja/WEBSIVUSTO/WEBSIVUSTON_KEHITTAMINEN_LAUREA/WS07_projektityö/images/betoniseinä.png);
+    background-image: url(C:/Users/Omistaja/WEBSIVUSTO/WEBSIVUSTON_KEHITTAMINEN_LAUREA/WS07_projektityö/images/betoniseinä2.png);
     background-size: cover;
     background-attachment: fixed;
 }
@@ -65,18 +65,11 @@ footer {
 .footer-section social-links {
     display:flex
 }
-
 .keskibox {
-    background-color: #fefefd;  
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid black;
-}
-.keskibox {
-    background-color: rgba(255, 255, 255, 0.5); 
+    background-color: rgba(255, 255, 255, 0.2); 
     border: 1px solid black;
     border-radius: 5px;
-    padding: 10px;
+    padding: 20px;
 }
 
 
@@ -88,19 +81,22 @@ footer {
 .ajanvaraus-btn {
     border: 2px solid black; 
 }
-.liike-kuva {
-    border: 20px solid black; 
-    border-radius: 5%;
-}
+
 .keskibox p {
     font-family: Arial, sans-serif;  
-    font-size: 16px;                 
+    font-size: 15px;                 
     line-height: 1.5;                
     color: #000;                      
 }
 .keskibox h2 {
     font-family: 'Lexend Mega', 'Inter', 'Poppins', Arial, Helvetica, sans-serif; 
     font-size: 24px;                
+    color: #333;                    
+    margin-bottom: 10px;           
+}
+.keskibox h5 {
+    font-family: 'Lexend Mega', 'Inter', 'Poppins', Arial, Helvetica, sans-serif; 
+    font-size: 19px;                
     color: #333;                    
     margin-bottom: 10px;           
 }
@@ -115,3 +111,69 @@ footer {
     margin-bottom: 0.5rem;
   }
 }
+#ajanvarauslinkki {
+      color: rgb(4, 4, 4);
+      text-decoration: none;
+      background-color: rgb(242, 239, 213);
+      border: #050505 solid 1px;
+      padding: 8px;
+      border-radius: 10px;
+      margin: 20px;
+    }
+#ajanvarauslinkki:hover {
+      background-color: rgb(200, 197, 171);
+    }
+/* Keskiboxin tyyli säilyy ennallaan */
+.keskibox {
+    background-color: rgba(255, 255, 255, 0.2); 
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+/* Painike */
+.ajanvaraus-btn {
+  white-space: nowrap;
+  font-size: 0.9rem;
+  padding: 0.5rem 0.8rem;
+}
+/* Keskiboxin tyyli */
+.keskibox {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Painike */
+.ajanvaraus-btn {
+    white-space: nowrap;
+    font-size: 0.9rem;
+    padding: 0.5rem 0.8rem;
+    border: 2px solid black;
+}
+
+/* Kuva venyy vanhemman divin korkeuteen ja pysyy ylhäällä */
+.liike-kuva {
+    width: 100%;
+    flex-grow: 1;         /* Täyttää flex-vanhemman */
+    object-fit: cover;    /* Säilyttää kuvasuhteen */
+}
+
+/* Varmistetaan, että rivin sarakkeet venyvät yhtä korkeiksi */
+.row.align-items-stretch {
+    align-items: stretch;
+}
+/* Kuva venyy tekstiruutua vastaavaksi */
+.col-md-5 {
+    display: flex;         /* Flex-vanhempi */
+    flex-direction: column; /* Säilyttää kuvan luonnollisen suunnan */
+}
+
+.col-md-5 .liike-kuva {
+    height: 100%;          /* Täyttää sarakkeen korkeuden */
+    object-fit: cover;     /* Säilyttää kuvasuhteen */
+}
+
+
+
+
