@@ -210,6 +210,13 @@ footer {
   padding: 20px; 
   border-radius: 10px;
 }
+@media (max-width: 768px) {
+  .custom-arrow {
+    font-size: 2.5rem; 
+    padding: 0.3rem 0.5rem; 
+  }
+}
+
 
 
 
