@@ -1,10 +1,14 @@
 .container-fluid {
     margin-top: 10px;
 }
+/* Taustakuva koko sivulle */
 body {
-    background-image: url(C:/Users/Omistaja/WEBSIVUSTO/WEBSIVUSTON_KEHITTAMINEN_LAUREA/WS07_projektityö/images/betoniseinä2.png);
+    background-image: url("../images/betoniseinä2.png");
     background-size: cover;
     background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #eae3d5;
 }
 .header-wrapper {
   background-color: #fefefd;
@@ -21,7 +25,6 @@ body {
   display: flex;
   flex-direction: column;
 }
-
 footer {
   margin-top: auto;
 }
@@ -188,7 +191,7 @@ footer {
 
 .product-text {
   font-family: 'Arial', sans-serif;    
-  font-size: 1.15rem;                
+  font-size: 1.0rem;                
   line-height: 1.6;                 
   color: #030303;                       
 }
@@ -199,11 +202,6 @@ footer {
 }
 .product-title {
   font-size: 2rem;  
-}
-@media (max-width: 768px) {
-  .product-title {
-    font-size: 1.4 rem;
-  }
 }
 .text-background {
   background-color: rgba(255, 255, 255, 0.8);
@@ -216,6 +214,31 @@ footer {
     padding: 0.3rem 0.5rem; 
   }
 }
+#ajanvarauslinkki2 {
+      color: rgb(4, 4, 4);
+      text-decoration: none;
+      background-color: rgb(242, 239, 213);
+      border: #050505 solid 1px;
+      padding: 8px;
+      border-radius: 10px;
+      margin: 20px;
+    }
+#ajanvarauslinkki2:hover {
+      background-color: rgb(200, 197, 171);
+    }
+#ajanvarauslinkki3 {
+      color: rgb(4, 4, 4);
+      text-decoration: none;
+      background-color: rgb(242, 239, 213);
+      border: #050505 solid 1px;
+      padding: 8px;
+      border-radius: 10px;
+      margin: 20px;
+    }
+#ajanvarauslinkki3:hover {
+      background-color: rgb(200, 197, 171);
+    }
+
 
 
 

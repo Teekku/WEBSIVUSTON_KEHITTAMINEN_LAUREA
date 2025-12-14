@@ -1,73 +1,88 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="fi">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>The Salonki</title>
-    <link rel="icon" type="image/png" href="images/Salonki_musta S.png"/>
+    <link rel="icon" type="image/png" href="images/Salonki_musta_S.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles/styles.css">
 </head>
   <body>
     <div class="header-wrapper">
   <div class="container d-flex align-items-center justify-content-between">
-    <img src="images/Salonki_musta ympyrä.png" alt="yrityksen logo" height="120">
-    
+    <img src="images/Salonki_musta_ympyrä.png"
+         alt="Yrityksen logo"
+         height="120">
     <nav class="navbar navbar-expand-lg">
-     <nav class="navbar navbar-expand-lg">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#"></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="etusivu.html">ETUSIVU</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="palvelut.html">PALVELUT</a>
-        </li>
-         
-         <li class="nav-item">
-          <a class="nav-link" href="hinnasto.html">HINNASTO</a>
-        </li>
-        <li class="nav-item dropdown d-flex align-items-center">
-  <!-- Päälinkki TUOTTEET -->
-  <a class="nav-link" href="tuotteet.html">TUOTTEET</a>
-  
-  <!-- Dropdown-nuoli -->
-  <a class="nav-link dropdown-toggle dropdown-toggle-split ms-1" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-    <span class="visually-hidden">Toggle Dropdown</span>
-  </a>
+      <button class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Avaa navigaatio">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mb-2 mb-lg-0">
 
-  <ul class="dropdown-menu">
-    <li><a class="dropdown-item" href="luonnonkosmetiikka.html">LUONNONKOSMETIIKKA</a></li>
-    <li><a class="dropdown-item" href="kotimyyntituotteet.html">KOTIMYYNTITUOTTEET</a></li>
-    <li><a class="dropdown-item" href="liiketuotteet.html">LIIKKEESSÄ KÄYTETTÄVÄT TUOTTEET</a></li>
-  </ul>
-</li>
-        <li class="nav-item">
-          <a class="nav-link" href="galleria.html">GALLERIA</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="galleria.html">YHTEYSTIEDOT</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link disabled" aria-disabled="true"></a>
-        </li>
-      </ul>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" aria-label="Search"/>
-        <button class="btn btn-outline-dark" type="submit">Haku</button>
-      </form>
-    </div>
-  </div>
-</nav>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="etusivu.html">ETUSIVU</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="palvelut.html">PALVELUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="hinnasto.html">HINNASTO</a>
+          </li>
+          <li class="nav-item dropdown d-flex align-items-center">
+            <a class="nav-link" href="tuotteet.html">TUOTTEET</a>
+            <a class="nav-link dropdown-toggle dropdown-toggle-split ms-1"
+               href="#"
+               role="button"
+               data-bs-toggle="dropdown"
+               aria-expanded="false">
+              <span class="visually-hidden">Avaa alavalikko</span>
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="luonnonkosmetiikka.html">
+                  LUONNONKOSMETIIKKA
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="kotimyyntituotteet.html">
+                  KOTIMYYNTITUOTTEET
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="liiketuotteet.html">
+                  LIIKKEESSÄ KÄYTETTÄVÄT TUOTTEET
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="galleria.html">GALLERIA</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="yhteystiedot.html">YHTEYSTIEDOT</a>
+          </li>
+        </ul>
+        <form class="d-flex ms-lg-3" role="search">
+          <input class="form-control me-2"
+                 type="search"
+                 aria-label="Haku">
+          <button class="btn btn-outline-dark" type="submit">
+            Haku
+          </button>
+        </form>
+      </div>
     </nav>
   </div>
 </div>
+<main>
 <div class="container py-5">
   <h2 class="mb-4 text-center">Liikkeessä myytävät tuotesarjat kotikäyttöön</h2>
   <div class="row g-3">
@@ -137,7 +152,7 @@
     </div>
     <div class="col-6 col-md-4 col-lg-3">
       <div class="card h-100 border-light shadow-sm">
-        <img src="images/GH Packshots vård och styling foto Maria Cruseman-17 – Redigerad.png"
+        <img src="images/Greenheads.png"
              class="card-img-top"
              alt="Tuote 1Less is more Herbal Scalp Relief Shampoo 200ml">
         <div class="card-body p-2">
@@ -171,26 +186,24 @@
           <p class="card-text small text-muted">
             KEVIN MURPHY tähtää samaan pitkäkestoisuuteen, tuloksellisuuteen ja hoitoon kuin ihonhoitotuotteissa. Kaikki Kevin Murphyn tuotteet on valmistettu mahdollisimman luonnollisista ainesosista täydellisen lopputuloksen saavuttamiseksi. Kevin Murphyn avulla hiuksesi saavat vahvuutta, volyymia ja elinvoimaisuutta upealla kosteutuksella. Kaikki tuotteet ovat sulfaatittomia, parabeenittomia ja PETAn sertifioimia.
           </p>
-          </p>
         </div>
   </div>
 </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-  </div> 
-  <br/>
-  <br/> 
-  <main>
-   <footer>
-     <div class="container-fluid">
-    </div>
-    <footer class="footer-custom">
+  </div>
+</div> 
+  <br>
+  <br> 
+</main>
+  <footer class="footer-custom">
   <div class="container">
     <div class="footer-content">
       <div class="footer-section">
-        <img src="images/Salonki_musta vaaka.png" alt="yrityksen logo" height="80">
+        <img src="images/Salonki_musta_vaaka.png" alt="yrityksen logo" height="80">
         </div>
-        <div class="footer-section"<p>Koskenparras 8<br>55100 Imatra</p>
-        </div>
+        <div class="footer-section">
+  <p>Koskenparras 8<br>55100 Imatra</p>
+</div>
         <div class="footer-section">
         <h5><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
   <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
