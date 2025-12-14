@@ -81,7 +81,6 @@ footer {
 .ajanvaraus-btn {
     border: 2px solid black; 
 }
-
 .keskibox p {
     font-family: Arial, sans-serif;  
     font-size: 15px;                 
@@ -101,13 +100,13 @@ footer {
     margin-bottom: 10px;           
 }
 .ajanvaraus-btn {
-  white-space: nowrap;  /* ei rivity */
+  white-space: nowrap;  
   font-size: 0.9rem;
   padding: 0.5rem 0.8rem;
 }
 @media (max-width: 576px) {
   .col-left {
-    justify-content: center;  /* painike keskelle pystyssä */
+    justify-content: center; 
     margin-bottom: 0.5rem;
   }
 }
@@ -123,55 +122,44 @@ footer {
 #ajanvarauslinkki:hover {
       background-color: rgb(200, 197, 171);
     }
-/* Keskiboxin tyyli säilyy ennallaan */
 .keskibox {
     background-color: rgba(255, 255, 255, 0.2); 
     border: 1px solid black;
     border-radius: 5px;
     padding: 10px;
 }
-/* Painike */
 .ajanvaraus-btn {
   white-space: nowrap;
   font-size: 0.9rem;
   padding: 0.5rem 0.8rem;
 }
-/* Keskiboxin tyyli */
 .keskibox {
     background-color: rgba(255, 255, 255, 0.2);
     border: 1px solid black;
     border-radius: 5px;
     padding: 10px;
 }
-
-/* Painike */
 .ajanvaraus-btn {
     white-space: nowrap;
     font-size: 0.9rem;
     padding: 0.5rem 0.8rem;
     border: 2px solid black;
 }
-
-/* Kuva venyy vanhemman divin korkeuteen ja pysyy ylhäällä */
 .liike-kuva {
     width: 100%;
-    flex-grow: 1;         /* Täyttää flex-vanhemman */
-    object-fit: cover;    /* Säilyttää kuvasuhteen */
+    flex-grow: 1;         
+    object-fit: cover;   
 }
-
-/* Varmistetaan, että rivin sarakkeet venyvät yhtä korkeiksi */
 .row.align-items-stretch {
     align-items: stretch;
 }
-/* Kuva venyy tekstiruutua vastaavaksi */
 .col-md-5 {
-    display: flex;         /* Flex-vanhempi */
-    flex-direction: column; /* Säilyttää kuvan luonnollisen suunnan */
+    display: flex;        
+    flex-direction: column; 
 }
-
 .col-md-5 .liike-kuva {
-    height: 100%;          /* Täyttää sarakkeen korkeuden */
-    object-fit: cover;     /* Säilyttää kuvasuhteen */
+    height: 100%;          
+    object-fit: cover;     
 }
 .custom-arrow {
   background: white;
@@ -190,6 +178,39 @@ footer {
 .carousel-control-next {
   opacity: 1;
 }
+.product-title {
+  font-family: 'Lexend Mega', 'Inter', 'Poppins', Arial, Helvetica, sans-serif; 
+  font-size: 2rem;                  
+  font-weight: 500;                  
+  line-height: 1.2;                  
+  color: #333;                       
+}
+
+.product-text {
+  font-family: 'Arial', sans-serif;    
+  font-size: 1.15rem;                
+  line-height: 1.6;                 
+  color: #030303;                       
+}
+.text-background {
+  background-color: rgba(255, 255, 255, 0.5); 
+  padding: 10px;     
+  border-radius: 5px; 
+}
+.product-title {
+  font-size: 2rem;  
+}
+@media (max-width: 768px) {
+  .product-title {
+    font-size: 1.4 rem;
+  }
+}
+.text-background {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px; 
+  border-radius: 10px;
+}
+
 
 
 
