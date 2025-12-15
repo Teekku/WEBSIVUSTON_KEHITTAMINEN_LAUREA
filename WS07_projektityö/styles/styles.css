@@ -40,27 +40,22 @@ footer {
   color: #000;
   padding: 20px 0;
 }
-
 .footer-custom a {
   color: #000;
   text-decoration: none;
 }
-
 .footer-custom a:hover {
   text-decoration: underline;
 }
-
 .footer-content {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 5px;
 }
-
 .footer-section {
   min-width: 100px;
 }
-
 .social-links a {
   display: block;
   margin-bottom: 5px;
@@ -74,8 +69,6 @@ footer {
     border-radius: 5px;
     padding: 20px;
 }
-
-
 .roundedfloat-start {
     border: 2px solid rgb(5,5,5);
     border-radius: 5%;
@@ -188,7 +181,6 @@ footer {
   line-height: 1.2;                  
   color: #333;                       
 }
-
 .product-text {
   font-family: 'Arial', sans-serif;    
   font-size: 1.0rem;                
@@ -237,6 +229,9 @@ footer {
     }
 #ajanvarauslinkki3:hover {
       background-color: rgb(200, 197, 171);
+    }
+    .form-bg {
+      background-color: rgba(255, 255, 255, 0.5);
     }
 
 
